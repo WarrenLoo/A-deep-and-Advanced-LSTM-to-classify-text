@@ -17,6 +17,8 @@ from modules import text_cleaning, lstm_model_creation
 
 # %% Functions
 
+print('Hello world')
+
 # %% Step 1) Data Loading
 CSV_PATH = os.path.join(os.getcwd(), 'Dataset', 'True.csv')
 df = pd.read_csv(CSV_PATH)
